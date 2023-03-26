@@ -1,0 +1,14 @@
+node_modules/
+.idea/
+.vscode/
+.expo/
+dist/
+npm-debug.*
+web-build/
+.DS_Store
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
