@@ -1,10 +1,7 @@
-Type in project folder to install eas:
+# Mobile Interface
+To build .apk file
 ```
-npm install -g eas-cli
+cd android
+gradlew assembleDebug
 ```
-To assemble apk file run:
-```
-eas build -p android —profile preview
-```
-After assembling you will see link to the project in the terminal named "Build details".
-You need to go this link and download .apk file
+Then app-debug.apk will be stored in android/app/build/outputs/apk/debug

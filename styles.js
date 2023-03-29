@@ -6,7 +6,6 @@ export const styles = StyleSheet.create({
         height: '10%',
         backgroundColor: 'white',
         position: 'relative',
-        top: StatusBar.currentHeight,
         flexDirection: 'row',
         justifyContent: 'flex-start',
         alignItems: 'center',
@@ -69,13 +68,14 @@ export const styles = StyleSheet.create({
 
     sideMenuOpened : {
         position: 'absolute',
-        top: '15%',
+        top: '10%',
         width: '80%',
         height: '100%',
         backgroundColor: 'white',
         flexDirection: "column",
         justifyContent: "flex-start",
-        elevation: 3,
+        elevation: 100,
+        zIndex: 100,
     },
 
     sideMenuButton : {
